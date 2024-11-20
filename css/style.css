@@ -11,7 +11,8 @@ a {
   color: white;
 }
 .navbar {
-  height: 70px;
+  height: 13%;
+  width: 100vw;
 }
 .rounded-pill {
   margin-left: 20px;
@@ -300,6 +301,9 @@ a {
   .carousel-caption {
     top: 55% !important;
   } */
+  .navbar{
+    width: 100%;
+  }
   .carousel-item img{
     height: 95vh !important;
     max-width: 100%;
@@ -311,8 +315,8 @@ a {
     width: 80% !important;
   }
   .thanks-card {
-    margin: 10px auto;
-    width: 230px;
+    margin: 5% auto;
+    width: 60%;
   }
   .coursesCard {
     margin: 20px 0;
@@ -322,22 +326,22 @@ a {
     margin-left: -2px !important;
   }
   .new-section img {
-    height: 170px;
+    height: 60%;
     width: 100%;
   }
   .new-section {
-    width: 90%;
-    height: 300px;
+    width: 85%;
+    height: 40%!important;
   }
   .join-section {
-    margin-top: 150px !important;
+    margin-top: 20% !important;
     margin-left: auto !important;
   }
   .join-card {
-    margin-right: 100px;
+    margin-right: 31%;
     margin-bottom: 20px;
   }
   .footer-section {
-    margin-left: -100px !important;
+    margin-left: -25% !important;
   }
 }
