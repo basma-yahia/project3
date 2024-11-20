@@ -67,8 +67,14 @@ a {
 .icons i:hover {
   color: #a8dadc;
 }
-.photo,.photo2 {
-  background-image: url(../images/back.avif);
+.photo{
+  background-image: url(../images/free1.avif);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 300px;
+}
+.photo2{
+  background-image: url(../images/free2.avif);
   background-attachment: fixed;
   background-size: cover;
   height: 300px;
