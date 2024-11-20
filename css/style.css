@@ -330,7 +330,7 @@ a {
     width: 100%;
   }
   .new-section {
-    width: 85%;
+    width: 80%;
     height: 40%!important;
   }
   .join-section {
@@ -343,5 +343,17 @@ a {
   }
   .footer-section {
     margin-left: -25% !important;
+  }
+  .footer-section img{
+    margin-left: 15%;
+  }
+  .footer-paragraph{
+    margin-left: 15%;
+    float: left;
+    /* padding-left: 10px; */
+  }
+  .footer-copy{
+    word-spacing: 1;
+    font-size: 17px;
   }
 }
