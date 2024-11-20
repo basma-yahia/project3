@@ -3,8 +3,8 @@
   margin: 0;
 }
 body {
-  height: 6000px;
   background-color: #a8dadc;
+  overflow-x: hidden;
 }
 a {
   text-decoration: none;
@@ -38,8 +38,12 @@ a {
 .carousel-inner {
   position: relative;
 }
-.carousel-item {
+/* .carousel-item {
   height: 100vh;
+} */
+.carousel-item img {
+  max-height: 100vh;
+  width: auto;
 }
 .carousel-caption {
   position: absolute;
@@ -67,7 +71,7 @@ a {
 .icons i:hover {
   color: #a8dadc;
 }
-.photo{
+.photo , .photo2{
   background-image: url(../images/free1.avif);
   background-attachment: fixed;
   background-size: cover;
@@ -75,9 +79,6 @@ a {
 }
 .photo2{
   background-image: url(../images/free2.avif);
-  background-attachment: fixed;
-  background-size: cover;
-  height: 300px;
 }
 #card-popular {
   position: relative;
@@ -290,10 +291,7 @@ a {
   cursor: pointer;
 }
 @media (max-width:567px) {
-  body {
-    overflow-x: hidden;
-  }
-  .carousel-item {
+  /* .carousel-item {
     height: auto !important;
   }
   .carousel-item img {
@@ -301,9 +299,16 @@ a {
   }
   .carousel-caption {
     top: 55% !important;
+  } */
+  .carousel-item img{
+    height: 95vh !important;
+    max-width: 100%;
+  }
+  .carousel-caption {
+    top: 60% !important;
   }
   textarea {
-    width: 400px !important;
+    width: 80% !important;
   }
   .thanks-card {
     margin: 10px auto;
